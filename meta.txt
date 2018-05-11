@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+I have made the data in JSON format. Basically, it is a huge list and each element is a dictionary for one patient including:
+
+cancer: cancer type for this patient
+OS: overall survival in days
+EVENT: the status of this patient when the overall survival was measured
+age: the age of this patient in years
+BCR: a list of B cell CDR3 sequences and their constant genes (NA means missing information)
+
+
+The 20 naturally occuring amino acids:
+Alanine         Ala     A
+Cysteine        Cys     C
+Aspartic AciD   Asp     D
+Glutamic Acid   Glu     E
+Phenylalanine   Phe     F
+Glycine         Gly     G
+Histidine       His     H
+Isoleucine      Ile     I
+Lysine          Lys     K
+Leucine         Leu     L
+Methionine      Met     M
+AsparagiNe      Asn     N
+Proline         Pro     P       
+Glutamine       Gln     Q
+ARginine        Arg     R
+Serine          Ser     S
+Threonine       Thr     T
+Valine          Val     V
+Tryptophan      Trp     W
+TYrosine        Tyr     Y
+Amino acids ambiguity codes:
+
+Asparagine/Aspartic Acid    Asx   B 
+Glutamine/Glutamic Acid     Glx   Z 
+Not assigned to amino acids:
+J O U
+Symbols for sequence analysis:
+deletion or gap    . (dot) 
+End or Terminator  * (star)
+
